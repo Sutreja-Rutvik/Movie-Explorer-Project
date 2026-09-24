@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CineVoyage | Avengers: Endgame</title>
+
+    <style>
+
+        /* ================= BODY ================= */
+
+        body {
+            background-color: #F7F3EA;
+            color: #242424;
+            /* background: linear-gradient(135deg, #F7F3EA, #E8D8B8); */
+            margin: 0;
+            padding: 20px;
+        }
+
+
+        /* ================= HEADER ================= */
+
+        header {
+            text-align: center;
+        }
+
+        header h1 {
+            color: rgb(6, 81, 31);
+            /* text-shadow: 5px 5px 5px rgb(6, 81, 31); */
+            text-shadow: 4px 3px 18px rgb(6, 81, 31);
+        }
+
+        h1 {
+            color: #7B1E1E;
+        }
+
+        h2 {
+            color: #B8860B;
+        }
+
+        hr {
+            border: 0;
+            border-top: 2px solid #B8860B;
+        }
+
+
+        /* ================= SUBTITLE ================= */
+
+        .subtitle {
+            color: #555555;
+            font-size: 18px;
+        }
+
+
+        /* ================= FIELDSET ================= */
+
+        fieldset {
+            border: 2px solid #C6A15B;
+            border-radius: 8px;
+            padding: 30px;
+        }
+
+
+        /* ================= LEGEND ================= */
+
+        legend {
+            font-size: 25px;
+            padding: 25px;
+            margin: 0.5px;
+            color: #B8860B;
+            font-weight: bold;
+        }
+
+
+        /* ================= MOVIE TABLE ================= */
+
+        .Movie_table {
+            width: 80%;
+            font-size: 18px;
+        }
+
+
+        .photo-box {
+            width: auto;
+            text-align: center;
+        }
+
+
+        /* ================= MOVIE POSTER ================= */
+
+        .photo {
+            width: 400px;
+            height: 500px;
+            border: 4px solid #B8860B;
+            border-radius: 6px;
+        }
+
+
+        /* ================= MOVIE DETAILS ================= */
+
+        .movie_details {
+            vertical-align: top;
+        }
+
+        .movie_details p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+
+        /* ================= BUTTON ================= */
+
+        .button {
+            background-color: #7B1E1E;
+            color: #FFFFFF;
+            border: 2px solid #B8860B;
+            border-radius: 6px;
+            padding: 8px 18px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+
+        /* ================= ABOUT ================= */
+
+        .about-text {
+            font-size: 19px;
+            line-height: 1.4;
+            text-align: justify;
+        }
+
+
+        /* ================= CAST TABLE ================= */
+
+        .maincast {
+            width: 80%;
+            border-collapse: collapse; /*for borden ovelaped see good*/
+        }
+
+
+        .maincast th {
+            background-color: #E9DFC8;
+            color: #7B1E1E;
+            border: 1px solid #C6A15B;
+            padding-inline: 20px;
+            text-align: left;
+            height: 40px;
+        }
+
+
+        .maincast td {
+            border: 1px solid #C6A15B;
+            padding: 17px;
+            text-align: left;
+        }
+
+
+        /* ================= MOVIE FACTS ================= */
+
+        .facts_table {
+            border-spacing: 15px;
+            font-size: 17px;
+        }
+
+
+        .facts_table td {
+            padding: 8px;
+        }
+
+
+        /* ================= FOOTER ================= */
+
+        .footer {
+            color: #FFFFFF;
+            background-color: #242424;
+            padding: 15px;
+        }
+        .acher{
+        text-decoration: none;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <center>
+
+            <h1>
+                🎬 CINE VOYAGE
+            </h1>
+
+            <nav>
+
+                <a href="../index.html" class="acher">🏠 Home</a>
+
+                &nbsp;&nbsp; | &nbsp;&nbsp;
+
+                <a href="../movies.html" class="acher">🎞️ Movies</a>
+
+                &nbsp;&nbsp; | &nbsp;&nbsp;
+
+                <a href="../details.html" class="acher">📖 Movies Details</a>
+
+                &nbsp;&nbsp; | &nbsp;&nbsp;
+
+                <a href="../about.html" class="acher">ℹ️ About</a>
+
+            </nav>
+
+        </center>
+
+        <hr width="90%">
+
+    </header>
+
+
+    <!-- ================= MOVIE TITLE ================= -->
+
+    <center>
+
+        <h1>
+            ⭐ Avengers: Endgame ⭐
+        </h1>
+
+        <p class="subtitle">
+            Whatever it takes
+        </p>
+
+    </center>
+
+
+    <!-- ================= MOVIE INFORMATION ================= -->
+
+    <fieldset>
+
+        <legend>
+            🎬 Movie Explorer
+        </legend>
+
+
+        <table class="Movie_table">
+
+            <tr>
+
+                <td class="photo-box">
+
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN-QdsX2FrMgynaHm94Kw3BpYyOJ2aeN-jdVzZrM4NAQ&s=10"
+                        alt="Avengers: Endgame"
+                        width="400"
+                        height="500"
+                        class="photo">
+
+                </td>
+
+
+                <!-- MOVIE DETAILS -->
+
+                <td class="movie_details">
+
+                    <h2>
+                        Avengers: Endgame
+                    </h2>
+
+                    <p>
+                        ⭐ <b>Rating:</b> 8.4/10
+                    </p>
+
+                    <p>
+                        📅 <b>Release Year:</b> 2019
+                    </p>
+
+                    <p>
+                        🌐 <b>Language:</b> English
+                    </p>
+
+                    <p>
+                        🎭 <b>Genre:</b> Action, Adventure, Sci-Fi
+                    </p>
+
+                    <p>
+                        ⏱️ <b>Duration:</b> 3h 1min
+                    </p>
+
+                    <p>
+                        🎬 <b>Directors:</b> Anthony Russo & Joe Russo
+                    </p>
+
+                    <p>
+                        🏢 <b>Production:</b> Marvel Studios
+                    </p>
+
+                    <br>
+
+                    <a href="https://youtu.be/AMSITikqKiM?si=xJAc0PkJPFYQJQJZ">
+
+                        <button class="button">
+                            ▶ Watch Trailer
+                        </button>
+
+                    </a>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </fieldset>
+
+
+    <br>
+
+
+    <!-- ================= ABOUT MOVIE ================= -->
+
+    <fieldset>
+
+        <legend>
+            📖 About the Movie
+        </legend>
+
+
+        <p class="about-text">
+
+            Avengers: Endgame is a 2019 American superhero film
+            produced by Marvel Studios and directed by Anthony Russo
+            and Joe Russo. It is the direct sequel to Avengers:
+            Infinity War and the 22nd film in the Marvel Cinematic
+            Universe.
+
+        </p>
+
+
+        <p class="about-text">
+
+            After Thanos uses the Infinity Stones to eliminate half
+            of all life in the universe, the remaining Avengers are
+            left struggling with the consequences of their defeat.
+            The heroes must find a way to overcome their loss and
+            bring back those who disappeared.
+
+        </p>
+
+
+        <p class="about-text">
+
+            Five years after the events of Infinity War, Scott Lang
+            returns from the Quantum Realm and gives the Avengers
+            a possible way to change the past. Tony Stark, Steve
+            Rogers, Natasha Romanoff, Thor, Bruce Banner and the
+            other heroes reunite for one final mission.
+
+        </p>
+
+
+        <p class="about-text">
+
+            The Avengers travel through different moments in time
+            to recover the Infinity Stones. Their mission becomes
+            extremely dangerous when their actions create unexpected
+            consequences and bring Thanos back into the conflict.
+
+        </p>
+
+
+        <p class="about-text">
+
+            Avengers: Endgame is known for its emotional story,
+            large-scale action sequences, memorable character
+            moments and its conclusion to a major chapter of the
+            Marvel Cinematic Universe. The movie focuses on themes
+            of sacrifice, friendship, courage and hope.
+
+        </p>
+
+    </fieldset>
+
+
+    <br>
+
+
+    <!-- ================= MAIN CAST ================= -->
+
+    <fieldset>
+
+        <legend>
+            🎭 Main Cast
+        </legend>
+
+
+        <center>
+
+            <table class="maincast">
+
+                <tr>
+
+                    <th>
+                        Actor
+                    </th>
+
+                    <th>
+                        Character
+                    </th>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        Robert Downey Jr.
+                    </td>
+
+                    <td>
+                        Tony Stark / Iron Man
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        Chris Evans
+                    </td>
+
+                    <td>
+                        Steve Rogers / Captain America
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        Mark Ruffalo
+                    </td>
+
+                    <td>
+                        Bruce Banner / Hulk
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        Chris Hemsworth
+                    </td>
+
+                    <td>
+                        Thor
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        Scarlett Johansson
+                    </td>
+
+                    <td>
+                        Natasha Romanoff / Black Widow
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        Jeremy Renner
+                    </td>
+
+                    <td>
+                        Clint Barton / Hawkeye
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </center>
+
+    </fieldset>
+
+
+    <br>
+
+
+    <!-- ================= MOVIE FACTS ================= -->
+
+    <fieldset>
+
+        <legend>
+            🏆 Movie Facts
+        </legend>
+
+
+        <center>
+
+            <table class="facts_table">
+
+                <tr>
+
+                    <td>
+                        🎬 <b>Directors</b>
+                    </td>
+
+                    <td>
+                        Anthony Russo & Joe Russo
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        ✍️ <b>Writers</b>
+                    </td>
+
+                    <td>
+                        Christopher Markus & Stephen McFeely
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        🏢 <b>Production</b>
+                    </td>
+
+                    <td>
+                        Marvel Studios
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        📅 <b>Release</b>
+                    </td>
+
+                    <td>
+                        2019
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        🌐 <b>Language</b>
+                    </td>
+
+                    <td>
+                        English
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        🎭 <b>Genre</b>
+                    </td>
+
+                    <td>
+                        Action, Adventure, Sci-Fi
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        ⏱️ <b>Duration</b>
+                    </td>
+
+                    <td>
+                        3 hours 1 minute
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </center>
+
+    </fieldset>
+
+
+    <br>
+
+
+    <!-- ================= BACK BUTTON ================= -->
+
+    <center>
+
+        <a href="../index.html">
+
+            <button class="button">
+                ⬅️ Back to Movies
+            </button>
+
+        </a>
+
+        <br><br><br>
+
+        <hr>
+
+
+        <!-- ================= FOOTER ================= -->
+
+        <p class="footer">
+
+            🎬 CineVoyage
+
+            <br>
+
+            &copy; 2026 CineVoyage | All Rights Reserved
+
+        </p>
+
+    </center>
+
+
+</body>
+
+</html>
